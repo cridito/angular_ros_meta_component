@@ -1,10 +1,17 @@
 # RosNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
+
 RosNg is a library for an easy integration of ros in angular projects. RosNg contains services to control rostopic, -services, -parameters. In addition, RosNg contains RosTopics and -Services for example to set and get the language of the robot or to start behaviors of a robot.
 Furthermore, RosNg contains components for an simple use of RosElements. 
 
+## ROS-Package Depencies
+
+To use the basic functionality of RosNg, which are the three Services RosTopicService-Rosservice-,RosParam-, you have to install the [rosbridge package](http://wiki.ros.org/rosbridge_suite).
+
+To use the implemented Ros Elements you have to install the package [faps_pepper_ros_bridge](https://git.faps.uni-erlangen.de/ERIK/Pepper/faps_pepper_ros_bridge) and [naoqi_driver](http://wiki.ros.org/naoqi_driver).
 ## Build
+
 
 ```
 cd ~
